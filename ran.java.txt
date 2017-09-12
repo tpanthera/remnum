@@ -1,0 +1,15 @@
+import java.util.Random ;   
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World we are generating random numbers ");
+        
+        //int randnumber = (int) (Math.random() * 5 + 4) ;
+        Random randnumber = new Random () ;
+         int n = randnumber.nextInt(5)+2 ;
+        System.out.println (n);
+        
+     }
+
+    
+}
